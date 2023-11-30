@@ -1,0 +1,17 @@
+import Node from './Node'
+
+const root = new Node(5)
+root.addNode(30)
+root.addNode(20)
+root.addNode(1)
+root.addNode(2)
+root.addNode(10)
+root.addNode(25)
+root.addNode(1.5)
+root.addNode(0)
+console.log('\n\n\nInOrder: ')
+root.inOrder()
+root.deleteNode(5)
+root.updateNode(0, 100)
+console.log('\n\n\postOrder: ')
+root.postOrder()
